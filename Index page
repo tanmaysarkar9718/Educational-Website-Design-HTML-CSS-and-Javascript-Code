@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>DCU University Website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    </head>
+<body>
+   <section class="header">
+       <nav>
+          <a href="index.html"><img src="Images/logo.png"> </a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+              <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="about.html">ABOUT</a> </li>
+                <li> <a href="course.html">COURSE</a> </li>
+                <li> <a href="blog.html">BLOG</a> </li>
+                <li> <a href="contact.html">CONTACT </a> </li>
+                <li> <a href="login.html" class="hero-btn">LOGIN/REGISTRATION </a> </li>
+                
+              </ul>
+          </div>
+         <i class="fa fa-bars"   onclick="showMenu()"></i>
+     </nav>
+     <div class="text-box">
+        <h1>Worlds Biggest University</h1>
+        <p> 
+            Making website is now one of the easiest thing in the World.
+            You just need to learn HTML,CSS,<br>Javascript and you are good to go.
+        </p>
+        <a href="about.html" class="hero-btn">Visit Us To know More</a>
+     </div>
+    </section>
+
+    <!----Course---->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>It increases your programming skill</p>
+    
+        <div class="row">
+             <div class="course-col">
+              <h3>Intermediate</h3>
+              <p>hyfgugysgbdhbfvjfgvuylfgb
+                  jkbfdjbuyfgvysuatfdaydgs
+                  uyfhgytdfsyugbvsjhfbsafh
+                  gfvuyjfgbasdufgbdahj.</p>
+             </div>
+
+             <div class="row">
+                <div class="course-col">
+                 <h3>Degree</h3>
+                 <p>hyfgugysgbdhbfvjfgvuylfgb
+                    jkbfdjbuyfgvysuatfdaydgs
+                    uyfhgytdfsyugbvsjhfbsafh
+                    gfvuyjfgbasdufgbdahj.</p>
+                </div>
+
+                <div class="row">
+                    <div class="course-col">
+                     <h3>Post Graduation</h3>
+                     <p>hyfgugysgbdhbfvjfgvuylfgb
+                        jkbfdjbuyfgvysuatfdaydgs
+                        uyfhgytdfsyugbvsjhfbsafh
+                        gfvuyjfgbasdufgbdahj.</p>
+                    </div>
+         </div>
+
+
+    </section>
+
+
+     <!----Campus------>
+
+      <section class="campus">
+        <h1>Our Golbal Campus</h1>
+         <p>It Should Attract Every People</p>
+      
+       <div class="row">
+
+        <div class="campus-col">
+          <img src="images/london.png">
+          <div class="layer">
+              <h3>LONDON</h3>
+          </div>
+          </div>
+
+
+          <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>NEW WORK</h3>
+            </div>
+          </div>
+
+          <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+          </div>
+       </div>
+      
+      
+        </section>
+
+  <!-----Facilities----->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>You Will Get Full Facilities From Here.</p>    
+
+<div class="row">
+   <div class="facilities-col">
+       <img src="images/library.png">
+       <h3>World Class Library</h3>
+       <p>All Books Are Available Here.</p>
+   </div>
+
+   <div class="facilities-col">
+    <img src="images/basketball.png">
+    <h3>Largest Playground</h3>
+    <p>This Playground is very Attractive.</p>
+</div>
+
+<div class="facilities-col">
+    <img src="images/cafeteria.png">
+    <h3>Tasty and Healthy Food</h3>
+    <p>All Tasty and Healthy Foods you will get from this section.</p>
+</div>
+
+</div>
+</section>
+
+ <!-----testimonials----->
+ <section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Our Students review is available here.</p>
+
+    <div class="row">
+
+        <div class="testimonials-col">
+           <img src="images/user1.jpg"> 
+           <div>
+           <p>
+              "This is my dream university.I get full advantage From
+              my university. It enables me to strong my knowledge, skills,power."
+           </p>
+           <h3>Christine Berley</h3>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa  fa-star"></i>
+
+         </div>
+        </div>
+
+            <div class="testimonials-col">
+               <img src="images/user2.jpg"> 
+               <div>
+               <p>
+                  "This is my favourite university.it can be called that it is my dream university.I get full advantage From
+                  my university. It enables me to strong my knowledge, skills,power." 
+               </p>
+               <h3>David Byer</h3>
+               <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-half-stroke"></i>
+               </div>
+            </div>
+    </div>
+
+ </section>
+
+ <!-----CAll to Action----->
+<section class="cta">
+
+<h1>Enroll For Our Various Online Courses <br> Anywhere
+     Form The World</h1>
+ <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+
+</section>
+
+<!-----Footer----->
+
+<section class="footer">
+    <h2>Find Us</h2>
+    <p>We are largest and renowed university in the world <br> You will get every facilities form here.</p>
+    <div class="icons">  
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+       <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+       <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+       <a href="https://www.linkedin.com/?original_referer="><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+    <p>Made with  <i class="fa-solid fa-heart"></i> by Tanmay Sarkar.</p>
+    <p><i class="fa-regular fa-copyright"></i> DCU University.All rights reserved.</p>
+</section>
+
+
+
+
+
+
+<!---Javascript For Toggle Menu----->
+
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+    </body>
+
+</html>
